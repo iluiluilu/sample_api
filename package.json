@@ -1,0 +1,27 @@
+{
+  "name": "laravel-spa",
+  "version": "1.0.0",
+  "description": "``` . ├── app │   ├── Console │   ├── Exception │   ├── Http │   ├── Providers ├── bootstraps ├── config ├── database ├── docker ├── frontend │   ├── vuejs │   └── vuejs-ts ├── public ├── routes ├── scripts ├── storage ├── test ├── vendor ├── .dockerignore ├── .editorconfig ├── .env ├── composer.json └── docker-compose.yml ``` ## Run local ``` docker-compose build docker-compose up ```",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "aglio": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "init-lint": "php artisan git:install-hooks",
+    "aglio": "./node_modules/.bin/aglio -i ./apidocs/ec_game_api.apib -o ./public/ec-game-api.blade.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iluiluilu/laravel-spa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iluiluilu/laravel-spa/issues"
+  },
+  "homepage": "https://github.com/iluiluilu/laravel-spa#readme"
+}

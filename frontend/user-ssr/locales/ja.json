@@ -1,0 +1,33 @@
+{
+    "commons": {
+        "button": {
+            "guide": "あそびかた",
+            "fill_up": "つめおえる"
+        }
+    },
+    "help_screen": {
+        "label": {
+            "title": "ぬいぐるみ・おもちゃ"
+        }
+    },
+    "top_screen": {
+        "button": {
+            "back": "マイページに戻る",
+            "start": "詰め放題を始める"
+        },
+        "label": {
+            "logo": "ロゴ",
+            "title": "タイトルバナー",
+            "copyright_top": "©2020 Pokémon. ©1995-2020 Nintendo/Creatures Inc. /GAME FREAK inc.",
+            "copyright_footer": "ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です"
+        }
+    },
+    "play_screen": {
+        "label": {
+            "tutorial_1": "商品カテゴリが<br>変更できるよ",
+            "tutorial_2": "商品ランクをクリックして<br/>商品詳細の情報の確認！",
+            "tutorial_3": "欲しい商品をつかんで<br/>箱につめよう",
+            "tutorial_4": "欲しい商品をつかんで<br/>箱につめよう"
+        }
+    }
+}
